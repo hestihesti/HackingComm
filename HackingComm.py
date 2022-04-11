@@ -38,16 +38,16 @@ print('\n')
 
 print('				WHAT KIND OF HACK DO YOU WANT TO DO?')
 
-print(colored('1. Info Gather <4>', 'red'))
-print(colored('2. Vulnerability Analysis <2>', 'red'))
-print(colored('3. Web Application Analysis', 'red'))
+print(colored('1. Info Gather <4>', 'magenta'))
+print(colored('2. Vulnerability Analysis <2>', 'yellow'))
+print(colored('3. Web Application Analysis', 'magenta'))
 print(colored('4. Database Assessment', 'yellow'))
-print(colored('5. Password Attacks', 'red'))
-print(colored('6. Wireless Attacks', 'red'))
-print(colored('7. Exploitation Tools', 'red'))
+print(colored('5. Password Attacks', 'magenta'))
+print(colored('6. Wireless Attacks', 'yellow'))
+print(colored('7. Exploitation Tools', 'magenta'))
 print(colored('8. Sniffing & Spoofing', 'yellow'))
-print(colored('9. Post Exploitation', 'red'))
-print(colored('10. Forensics', 'red'))
+print(colored('9. Post Exploitation', 'magenta'))
+print(colored('10. Forensics', 'yellow'))
 print(colored('11. Social Engineering', 'magenta'))
 print(colored('12. MISC', 'yellow'))
 print(colored("13. Show All", 'magenta'))
@@ -59,7 +59,6 @@ print(colored("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 print('\n')
 def Catagory():
 
-#///////////////////////////////DONE///////////////DONE/////////////////////////////////////////////////////////////
 #############################3		SCANNING		####################################################
 	if number == "1":
 		print(colored("1. nmap", 'blue'))
@@ -119,8 +118,6 @@ def Catagory():
 		else:
 			pass
 
-
-#//////////////////////////////////////DONE/////////////////////////////DONE////////////////////////////////////////////////
 #######################################  	VULNERABILITY ANALYSIS		############################################
 	elif number == "2":
 		print(colored("1. nikto", 'blue'))
@@ -162,7 +159,6 @@ def Catagory():
 		else:
 			return
 
-#///////////////////////////////////////DONE/////////////////////////////////DONE/////////////////////////////////////////////////////////////////////
 ######################################		WEB  APPLICATION  ANALYSIS		##############################################
 	elif number == "3":
 		print(colored("1. commix", 'blue'))
@@ -258,7 +254,6 @@ def Catagory():
 		print(colored("SQLMap line goes here", 'green'))
 
 
-#/////////////////////////////////////DONE///////////////////////////DONE/////////////////////////////////////////////////////////////////////
 #################################		PASSWORD  CRACKING		##########################################
 	elif number == "5":
 		print(colored("1. cewl", 'blue'))
@@ -401,8 +396,6 @@ def Catagory():
 		else:
 			return
 
-
-#////////////////////////////////////DONE////////////////////////////DONE//////////////////////////////////////////////////////////////////////////////////
 #################################       	WIRELESS  ATTACKS		##########################################################
 	elif number == "6":
 		print(colored("1. aircrack-ng", 'blue'))
@@ -513,8 +506,6 @@ def Catagory():
 		else:
 			return
 
-
-#///////////////////////////////////DONE/////////////////////////////DONE///////////////////////////////////////////////////////////////////////////////////
 ################################		EXPLOITATION  TOOLS		#############################################
 	elif number == "7":
 		print(colored("1. crackmapexec", 'blue'))
@@ -600,7 +591,7 @@ def Catagory():
 			print(colored("use creds/routers/fortinet/ftp_default_creds", 'green'))
 			print(colored("set target <IP Address>", 'green'))
 			print(colored("set defaults file: ///PathToWordlist.txt", 'green'))
-			print(colored("run", 'red'))
+			print(colored("run", 'green'))
 
 
 		else:
@@ -611,12 +602,12 @@ def Catagory():
 
 #####################################		SNIFFING  &  SPOOFING		##########################################################################
 	elif number == "8":
-		print(colored("1. bettercap", 'blue'))
-		print(colored("2. macchanger", 'cyan'))
-		print(colored("3. minicom", 'blue'))
-		print(colored("4. netsniff-ng", 'red'))
-		print(colored("5. wireshark", 'blue'))
-		print(colored("6. responder", 'red'))
+		print(colored("1. bettercap", 'red'))
+		print(colored("2. macchanger", 'red'))
+		print(colored("3. minicom", 'red'))
+		print(colored("4. netsniff-ng", 'cyan'))
+		print(colored("5. wireshark", 'red'))
+		print(colored("6. responder", 'cyan'))
 
 		App7 = input("What Application Do You Want To Use: ")
 		print(colored('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~', 'red'))
@@ -873,7 +864,6 @@ def Catagory():
 		else:
 			return
 
-#//////////////////////////////////DONE//////////////////////DONE////////////////////////////////////////////////////////////////////////////////////////////////
 ################################		FORENSICS		#########################################################################
 	elif number == "10":
 		print(colored("1. autopsy", 'blue'))
@@ -1077,6 +1067,51 @@ def Catagory():
 		print('* THIS IS A LIST OF THE TUTORIALS PROVIDED * \n')
 		print('\n')
 		print(colored("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n", 'magenta'))
+		print(colored("1. nmap", 'blue'))
+		print(colored("2. recon-ng", 'cyan'))
+		print(colored("3. spiderfoot", 'blue'))
+		print(colored("4. dmitry", 'cyan'))
+		print(colored("5. nikto", 'blue'))		
+		
+		print(colored("6. commix", 'blue'))
+		print(colored("7. sqlmap", 'cyan'))
+		print(colored("8. skipfish", 'blue'))
+		print(colored("9. wpscan", 'cyan'))		
+		print(colored("10. cewl", 'blue'))
+		print(colored("11. crunch", 'cyan'))
+		print(colored("12. hashcat", 'blue'))
+		print(colored("13. john", 'cyan'))
+		print(colored("14. medusa", 'blue'))
+		print(colored("15. ncrack", 'cyan'))
+		print(colored("16. ophcrack", 'blue'))
+		print(colored("17. nmap", 'cyan'))
+		print(colored("18. aircrack-ng", 'blue'))
+		print(colored("19. reaver", 'cyan'))
+		print(colored("20. wifite", 'blue'))
+		print(colored("21. kismet", 'cyan'))
+		print(colored("22. pixiewps", 'blue'))
+		print(colored("23. crackmapexec", 'blue'))
+		print(colored("24. metasploit framework", 'cyan'))
+		print(colored("25. msf payload creater", 'blue'))
+		print(colored("26. searchsploit", 'cyan'))
+		print(colored("27. routersploit", 'blue'))
+		print(colored("28. bettercap", 'red'))
+		print(colored("29. macchanger", 'red'))
+		print(colored("30. minicom", 'red'))
+		print(colored("31. netsniff-ng", 'cyan'))
+		print(colored("32. wireshark", 'red'))
+		print(colored("33. responder", 'cyan'))
+		print(colored("34. powersploit", 'blue'))
+		print(colored("35. mimikatz", 'cyan'))
+		print(colored("36. weevely", 'blue'))
+		print(colored("37. powershell empire", 'cyan'))
+		print(colored("38. autopsy", 'blue'))
+		print(colored("39. binwalk", 'cyan'))
+		print(colored("40. bulkextractor", 'blue'))
+		print(colored("41. hashdeep", 'cyan'))
+		
+		
+		
 
 
 	else:
