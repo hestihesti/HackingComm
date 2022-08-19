@@ -27,7 +27,7 @@ Installation:
 
 #cd HackingComm
 
-#python3 -m pip install -r requirements.txt
+#pip3 install termcolor
 
 #chmod +x HackingComm.py
 
